@@ -1,0 +1,6 @@
+﻿  Compiler.cpp
+  Main.cpp
+  Tokenizer.cpp
+C:\Users\liamz\Documents\C++Project\CustomCompliler\CustomComplier\Compiler\Source\Tokenizer.cpp(19,10): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+  Génération de code en cours...
+  CustomComplier.vcxproj -> C:\Users\liamz\Documents\C++Project\CustomCompliler\CustomComplier\x64\Debug\CustomComplier.exe
