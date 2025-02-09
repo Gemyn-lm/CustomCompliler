@@ -130,18 +130,44 @@
   <ItemGroup>
     <ClCompile Include="Compiler\Source\Compiler.cpp" />
     <ClCompile Include="Compiler\Source\DebugHelper.cpp" />
+    <ClCompile Include="Compiler\Source\Expression\AssignationExpression.cpp" />
+    <ClCompile Include="Compiler\Source\Expression\BinaryExpression.cpp" />
     <ClCompile Include="Compiler\Source\Expression\Expression.cpp" />
+    <ClCompile Include="Compiler\Source\Expression\FuncCall.cpp" />
+    <ClCompile Include="Compiler\Source\Expression\IndexingExpression.cpp" />
+    <ClCompile Include="Compiler\Source\Expression\LiteralExpression.cpp" />
+    <ClCompile Include="Compiler\Source\Expression\ParenExpression.cpp" />
+    <ClCompile Include="Compiler\Source\Expression\UnaryExpression.cpp" />
     <ClCompile Include="Compiler\Source\Main.cpp" />
     <ClCompile Include="Compiler\Source\Parser.cpp" />
+    <ClCompile Include="Compiler\Source\Statement\CompoundStatement.cpp" />
+    <ClCompile Include="Compiler\Source\Statement\ExpressionStatement.cpp" />
+    <ClCompile Include="Compiler\Source\Statement\IfStatement.cpp" />
+    <ClCompile Include="Compiler\Source\Statement\ReturnStatement.cpp" />
+    <ClCompile Include="Compiler\Source\Statement\Statement.cpp" />
+    <ClCompile Include="Compiler\Source\Statement\VarDefStatement.cpp" />
+    <ClCompile Include="Compiler\Source\Statement\WhileStatement.cpp" />
     <ClCompile Include="Compiler\Source\Tokenizer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Compiler\Header\Compiler.hpp" />
+    <ClInclude Include="Compiler\Header\Expression\AssignationExpression.hpp" />
+    <ClInclude Include="Compiler\Header\Expression\BinaryExpression.hpp" />
     <ClInclude Include="Compiler\Header\Expression\Expression.hpp" />
+    <ClInclude Include="Compiler\Header\Expression\FuncCall.hpp" />
+    <ClInclude Include="Compiler\Header\Expression\IndexingExpression.hpp" />
+    <ClInclude Include="Compiler\Header\Expression\LiteralExpression.hpp" />
+    <ClInclude Include="Compiler\Header\Expression\ParenExpression.hpp" />
+    <ClInclude Include="Compiler\Header\Expression\UnaryExpression.hpp" />
     <ClInclude Include="Compiler\Header\Parser.hpp" />
     <ClInclude Include="Compiler\Header\Program.hpp" />
     <ClInclude Include="Compiler\Header\Statement\CompoundStatement.hpp" />
+    <ClInclude Include="Compiler\Header\Statement\ExpressionStatement.hpp" />
+    <ClInclude Include="Compiler\Header\Statement\IfStatement.hpp" />
+    <ClInclude Include="Compiler\Header\Statement\ReturnStatement.hpp" />
     <ClInclude Include="Compiler\Header\Statement\Statement.hpp" />
+    <ClInclude Include="Compiler\Header\Statement\VarDefStatement.hpp" />
+    <ClInclude Include="Compiler\Header\Statement\WhileStatement.hpp" />
     <ClInclude Include="Compiler\Header\Tokenizer.hpp" />
   </ItemGroup>
   <ItemGroup>

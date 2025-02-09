@@ -14,7 +14,7 @@ struct AST_Node
 	{
 		for (AST_Node* node : GetElementList())
 		{
-			node->GenerateInstructions(compiler, scope);
+			node->GenerateInstructions(compiler, scope); 
 		}
 	};
 };

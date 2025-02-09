@@ -2,6 +2,7 @@
 #include <iostream>
 #include <sstream>
 #include "Compiler.hpp"
+#include "Parser.hpp"
 
 
 
@@ -24,6 +25,8 @@ Program Compiler::Compile(const std::string& filename)
     std::string programTxt = ExtractTextFile(filename);
 
     tokenList = Tokenize(programTxt);
+    std::vector<Function_Def*> funcList = ParseToSyntaxTree(tokenList, this);
+    funcList[0]->Print(0);
 
 	return Program();
 }

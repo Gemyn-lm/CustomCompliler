@@ -7,28 +7,136 @@
       "RelativeMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|solutionrelative:Compiler\\Source\\Parser.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Source\\Compiler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|solutionrelative:Compiler\\Source\\Compiler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Resources\\program.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|solutionrelative:Compiler\\Resources\\program.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Source\\Statement\\IfStatement.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|solutionrelative:Compiler\\Source\\Statement\\IfStatement.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Parser.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|solutionrelative:Compiler\\Header\\Parser.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Expression\\Expression.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|solutionrelative:Compiler\\Header\\Expression\\Expression.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Source\\Statement\\CompoundStatement.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|solutionrelative:Compiler\\Source\\Statement\\CompoundStatement.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Statement\\Statement.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|solutionrelative:Compiler\\Header\\Statement\\Statement.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Source\\Expression\\BinaryExpression.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|solutionrelative:Compiler\\Source\\Expression\\BinaryExpression.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Source\\Statement\\WhileStatement.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|solutionrelative:Compiler\\Source\\Statement\\WhileStatement.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Source\\Statement\\VarDefStatement.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|solutionrelative:Compiler\\Source\\Statement\\VarDefStatement.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Source\\Statement\\Statement.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|solutionrelative:Compiler\\Source\\Statement\\Statement.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Source\\Statement\\ReturnStatement.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|solutionrelative:Compiler\\Source\\Statement\\ReturnStatement.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Statement\\ExpressionStatement.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|solutionrelative:Compiler\\Header\\Statement\\ExpressionStatement.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Source\\Statement\\ExpressionStatement.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|solutionrelative:Compiler\\Source\\Statement\\ExpressionStatement.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Source\\Expression\\UnaryExpression.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|solutionrelative:Compiler\\Source\\Expression\\UnaryExpression.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Expression\\ParenExpression.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|solutionrelative:Compiler\\Header\\Expression\\ParenExpression.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Source\\Expression\\ParenExpression.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|solutionrelative:Compiler\\Source\\Expression\\ParenExpression.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Source\\Expression\\LiteralExpression.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|solutionrelative:Compiler\\Source\\Expression\\LiteralExpression.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Expression\\IndexingExpression.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|solutionrelative:Compiler\\Header\\Expression\\IndexingExpression.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Source\\Expression\\IndexingExpression.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|solutionrelative:Compiler\\Source\\Expression\\IndexingExpression.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Source\\Expression\\FuncCall.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|solutionrelative:Compiler\\Source\\Expression\\FuncCall.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Expression\\FuncCall.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|solutionrelative:Compiler\\Header\\Expression\\FuncCall.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Source\\Expression\\Expression.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|solutionrelative:Compiler\\Source\\Expression\\Expression.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Source\\Expression\\AssignationExpression.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|solutionrelative:Compiler\\Source\\Expression\\AssignationExpression.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Statement\\CompoundStatement.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|solutionrelative:Compiler\\Header\\Statement\\CompoundStatement.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Source\\Expression\\Expression.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|solutionrelative:Compiler\\Source\\Expression\\Expression.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Expression\\Expression.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|solutionrelative:Compiler\\Header\\Expression\\Expression.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Expression\\BinaryExpression.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|solutionrelative:Compiler\\Header\\Expression\\BinaryExpression.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Expression\\UnaryExpression.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|solutionrelative:Compiler\\Header\\Expression\\UnaryExpression.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Expression\\LiteralExpression.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|solutionrelative:Compiler\\Header\\Expression\\LiteralExpression.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Expression\\AssignationExpression.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|solutionrelative:Compiler\\Header\\Expression\\AssignationExpression.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Source\\Compiler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|solutionrelative:Compiler\\Source\\Compiler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Statement\\VarDefStatement.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|solutionrelative:Compiler\\Header\\Statement\\VarDefStatement.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Statement\\ReturnStatement.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|solutionrelative:Compiler\\Header\\Statement\\ReturnStatement.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Statement\\WhileStatement.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|solutionrelative:Compiler\\Header\\Statement\\WhileStatement.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Statement\\Statement.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|solutionrelative:Compiler\\Header\\Statement\\Statement.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Statement\\IfStatement.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|solutionrelative:Compiler\\Header\\Statement\\IfStatement.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Compiler.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -37,10 +145,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Tokenizer.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|solutionrelative:Compiler\\Header\\Tokenizer.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Resources\\program.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|solutionrelative:Compiler\\Resources\\program.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{47F446AC-68EB-4585-97C1-462158D9A3C7}|CustomComplier.vcxproj|C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Source\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -58,8 +162,68 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ReturnStatement.cpp",
+              "DocumentMoniker": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Source\\Statement\\ReturnStatement.cpp",
+              "RelativeDocumentMoniker": "Compiler\\Source\\Statement\\ReturnStatement.cpp",
+              "ToolTip": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Source\\Statement\\ReturnStatement.cpp",
+              "RelativeToolTip": "Compiler\\Source\\Statement\\ReturnStatement.cpp",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-07T10:31:40.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Statement.cpp",
+              "DocumentMoniker": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Source\\Statement\\Statement.cpp",
+              "RelativeDocumentMoniker": "Compiler\\Source\\Statement\\Statement.cpp",
+              "ToolTip": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Source\\Statement\\Statement.cpp",
+              "RelativeToolTip": "Compiler\\Source\\Statement\\Statement.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-05T13:11:44.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "VarDefStatement.cpp",
+              "DocumentMoniker": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Source\\Statement\\VarDefStatement.cpp",
+              "RelativeDocumentMoniker": "Compiler\\Source\\Statement\\VarDefStatement.cpp",
+              "ToolTip": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Source\\Statement\\VarDefStatement.cpp",
+              "RelativeToolTip": "Compiler\\Source\\Statement\\VarDefStatement.cpp",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADMAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-07T10:32:34.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WhileStatement.cpp",
+              "DocumentMoniker": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Source\\Statement\\WhileStatement.cpp",
+              "RelativeDocumentMoniker": "Compiler\\Source\\Statement\\WhileStatement.cpp",
+              "ToolTip": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Source\\Statement\\WhileStatement.cpp",
+              "RelativeToolTip": "Compiler\\Source\\Statement\\WhileStatement.cpp",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAD4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-07T10:34:02.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BinaryExpression.cpp",
+              "DocumentMoniker": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Source\\Expression\\BinaryExpression.cpp",
+              "RelativeDocumentMoniker": "Compiler\\Source\\Expression\\BinaryExpression.cpp",
+              "ToolTip": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Source\\Expression\\BinaryExpression.cpp",
+              "RelativeToolTip": "Compiler\\Source\\Expression\\BinaryExpression.cpp",
+              "ViewState": "AgIAABAAAAAAAAAAAAAuwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-07T15:17:25.105Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -68,79 +232,50 @@
               "RelativeDocumentMoniker": "Compiler\\Source\\Parser.cpp",
               "ToolTip": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Source\\Parser.cpp",
               "RelativeToolTip": "Compiler\\Source\\Parser.cpp",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAAEAAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAFwAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-02T15:05:22.064Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CompoundStatement.hpp",
-              "DocumentMoniker": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Statement\\CompoundStatement.hpp",
-              "RelativeDocumentMoniker": "Compiler\\Header\\Statement\\CompoundStatement.hpp",
-              "ToolTip": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Statement\\CompoundStatement.hpp",
-              "RelativeToolTip": "Compiler\\Header\\Statement\\CompoundStatement.hpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "ExpressionStatement.hpp",
+              "DocumentMoniker": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Statement\\ExpressionStatement.hpp",
+              "RelativeDocumentMoniker": "Compiler\\Header\\Statement\\ExpressionStatement.hpp",
+              "ToolTip": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Statement\\ExpressionStatement.hpp",
+              "RelativeToolTip": "Compiler\\Header\\Statement\\ExpressionStatement.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-02T15:03:12.121Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-05T13:14:46.864Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Statement.hpp",
-              "DocumentMoniker": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Statement\\Statement.hpp",
-              "RelativeDocumentMoniker": "Compiler\\Header\\Statement\\Statement.hpp",
-              "ToolTip": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Statement\\Statement.hpp",
-              "RelativeToolTip": "Compiler\\Header\\Statement\\Statement.hpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-02T15:02:39.588Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Parser.hpp",
               "DocumentMoniker": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Parser.hpp",
               "RelativeDocumentMoniker": "Compiler\\Header\\Parser.hpp",
               "ToolTip": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Parser.hpp",
               "RelativeToolTip": "Compiler\\Header\\Parser.hpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-02T15:01:44.275Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-02T15:01:44.275Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Expression.cpp",
-              "DocumentMoniker": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Source\\Expression\\Expression.cpp",
-              "RelativeDocumentMoniker": "Compiler\\Source\\Expression\\Expression.cpp",
-              "ToolTip": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Source\\Expression\\Expression.cpp",
-              "RelativeToolTip": "Compiler\\Source\\Expression\\Expression.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "CompoundStatement.cpp",
+              "DocumentMoniker": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Source\\Statement\\CompoundStatement.cpp",
+              "RelativeDocumentMoniker": "Compiler\\Source\\Statement\\CompoundStatement.cpp",
+              "ToolTip": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Source\\Statement\\CompoundStatement.cpp",
+              "RelativeToolTip": "Compiler\\Source\\Statement\\CompoundStatement.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-02T14:59:42.199Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-05T13:11:58.787Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Expression.hpp",
-              "DocumentMoniker": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Expression\\Expression.hpp",
-              "RelativeDocumentMoniker": "Compiler\\Header\\Expression\\Expression.hpp",
-              "ToolTip": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Expression\\Expression.hpp",
-              "RelativeToolTip": "Compiler\\Header\\Expression\\Expression.hpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-02T14:58:25.982Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
               "Title": "program.txt",
               "DocumentMoniker": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Resources\\program.txt",
               "RelativeDocumentMoniker": "Compiler\\Resources\\program.txt",
@@ -153,7 +288,295 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IfStatement.cpp",
+              "DocumentMoniker": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Source\\Statement\\IfStatement.cpp",
+              "RelativeDocumentMoniker": "Compiler\\Source\\Statement\\IfStatement.cpp",
+              "ToolTip": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Source\\Statement\\IfStatement.cpp",
+              "RelativeToolTip": "Compiler\\Source\\Statement\\IfStatement.cpp",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-07T10:29:40.432Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "ExpressionStatement.cpp",
+              "DocumentMoniker": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Source\\Statement\\ExpressionStatement.cpp",
+              "RelativeDocumentMoniker": "Compiler\\Source\\Statement\\ExpressionStatement.cpp",
+              "ToolTip": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Source\\Statement\\ExpressionStatement.cpp",
+              "RelativeToolTip": "Compiler\\Source\\Statement\\ExpressionStatement.cpp",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAABcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-07T10:26:17.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UnaryExpression.cpp",
+              "DocumentMoniker": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Source\\Expression\\UnaryExpression.cpp",
+              "RelativeDocumentMoniker": "Compiler\\Source\\Expression\\UnaryExpression.cpp",
+              "ToolTip": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Source\\Expression\\UnaryExpression.cpp",
+              "RelativeToolTip": "Compiler\\Source\\Expression\\UnaryExpression.cpp",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-07T15:10:13.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ParenExpression.hpp",
+              "DocumentMoniker": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Expression\\ParenExpression.hpp",
+              "RelativeDocumentMoniker": "Compiler\\Header\\Expression\\ParenExpression.hpp",
+              "ToolTip": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Expression\\ParenExpression.hpp",
+              "RelativeToolTip": "Compiler\\Header\\Expression\\ParenExpression.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-07T11:21:15.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ParenExpression.cpp",
+              "DocumentMoniker": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Source\\Expression\\ParenExpression.cpp",
+              "RelativeDocumentMoniker": "Compiler\\Source\\Expression\\ParenExpression.cpp",
+              "ToolTip": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Source\\Expression\\ParenExpression.cpp",
+              "RelativeToolTip": "Compiler\\Source\\Expression\\ParenExpression.cpp",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-07T15:13:42.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LiteralExpression.cpp",
+              "DocumentMoniker": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Source\\Expression\\LiteralExpression.cpp",
+              "RelativeDocumentMoniker": "Compiler\\Source\\Expression\\LiteralExpression.cpp",
+              "ToolTip": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Source\\Expression\\LiteralExpression.cpp",
+              "RelativeToolTip": "Compiler\\Source\\Expression\\LiteralExpression.cpp",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAEsAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-07T15:08:03.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IndexingExpression.hpp",
+              "DocumentMoniker": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Expression\\IndexingExpression.hpp",
+              "RelativeDocumentMoniker": "Compiler\\Header\\Expression\\IndexingExpression.hpp",
+              "ToolTip": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Expression\\IndexingExpression.hpp",
+              "RelativeToolTip": "Compiler\\Header\\Expression\\IndexingExpression.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-07T11:22:04.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IndexingExpression.cpp",
+              "DocumentMoniker": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Source\\Expression\\IndexingExpression.cpp",
+              "RelativeDocumentMoniker": "Compiler\\Source\\Expression\\IndexingExpression.cpp",
+              "ToolTip": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Source\\Expression\\IndexingExpression.cpp",
+              "RelativeToolTip": "Compiler\\Source\\Expression\\IndexingExpression.cpp",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-07T14:49:27.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FuncCall.cpp",
+              "DocumentMoniker": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Source\\Expression\\FuncCall.cpp",
+              "RelativeDocumentMoniker": "Compiler\\Source\\Expression\\FuncCall.cpp",
+              "ToolTip": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Source\\Expression\\FuncCall.cpp",
+              "RelativeToolTip": "Compiler\\Source\\Expression\\FuncCall.cpp",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAawBQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-07T15:45:38.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FuncCall.hpp",
+              "DocumentMoniker": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Expression\\FuncCall.hpp",
+              "RelativeDocumentMoniker": "Compiler\\Header\\Expression\\FuncCall.hpp",
+              "ToolTip": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Expression\\FuncCall.hpp",
+              "RelativeToolTip": "Compiler\\Header\\Expression\\FuncCall.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-07T13:05:32.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Expression.cpp",
+              "DocumentMoniker": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Source\\Expression\\Expression.cpp",
+              "RelativeDocumentMoniker": "Compiler\\Source\\Expression\\Expression.cpp",
+              "ToolTip": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Source\\Expression\\Expression.cpp",
+              "RelativeToolTip": "Compiler\\Source\\Expression\\Expression.cpp",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAuwDYAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-02T14:59:42.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AssignationExpression.cpp",
+              "DocumentMoniker": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Source\\Expression\\AssignationExpression.cpp",
+              "RelativeDocumentMoniker": "Compiler\\Source\\Expression\\AssignationExpression.cpp",
+              "ToolTip": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Source\\Expression\\AssignationExpression.cpp",
+              "RelativeToolTip": "Compiler\\Source\\Expression\\AssignationExpression.cpp",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAAB0AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-07T14:48:30.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CompoundStatement.hpp",
+              "DocumentMoniker": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Statement\\CompoundStatement.hpp",
+              "RelativeDocumentMoniker": "Compiler\\Header\\Statement\\CompoundStatement.hpp",
+              "ToolTip": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Statement\\CompoundStatement.hpp",
+              "RelativeToolTip": "Compiler\\Header\\Statement\\CompoundStatement.hpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-02T15:03:12.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Expression.hpp",
+              "DocumentMoniker": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Expression\\Expression.hpp",
+              "RelativeDocumentMoniker": "Compiler\\Header\\Expression\\Expression.hpp",
+              "ToolTip": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Expression\\Expression.hpp",
+              "RelativeToolTip": "Compiler\\Header\\Expression\\Expression.hpp",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAABrAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-07T16:29:06.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "BinaryExpression.hpp",
+              "DocumentMoniker": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Expression\\BinaryExpression.hpp",
+              "RelativeDocumentMoniker": "Compiler\\Header\\Expression\\BinaryExpression.hpp",
+              "ToolTip": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Expression\\BinaryExpression.hpp",
+              "RelativeToolTip": "Compiler\\Header\\Expression\\BinaryExpression.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-07T11:29:02.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UnaryExpression.hpp",
+              "DocumentMoniker": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Expression\\UnaryExpression.hpp",
+              "RelativeDocumentMoniker": "Compiler\\Header\\Expression\\UnaryExpression.hpp",
+              "ToolTip": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Expression\\UnaryExpression.hpp",
+              "RelativeToolTip": "Compiler\\Header\\Expression\\UnaryExpression.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-07T11:26:20.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "LiteralExpression.hpp",
+              "DocumentMoniker": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Expression\\LiteralExpression.hpp",
+              "RelativeDocumentMoniker": "Compiler\\Header\\Expression\\LiteralExpression.hpp",
+              "ToolTip": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Expression\\LiteralExpression.hpp",
+              "RelativeToolTip": "Compiler\\Header\\Expression\\LiteralExpression.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-07T10:35:42.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AssignationExpression.hpp",
+              "DocumentMoniker": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Expression\\AssignationExpression.hpp",
+              "RelativeDocumentMoniker": "Compiler\\Header\\Expression\\AssignationExpression.hpp",
+              "ToolTip": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Expression\\AssignationExpression.hpp",
+              "RelativeToolTip": "Compiler\\Header\\Expression\\AssignationExpression.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-07T11:16:23.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Compiler.cpp",
+              "DocumentMoniker": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Source\\Compiler.cpp",
+              "RelativeDocumentMoniker": "Compiler\\Source\\Compiler.cpp",
+              "ToolTip": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Source\\Compiler.cpp",
+              "RelativeToolTip": "Compiler\\Source\\Compiler.cpp",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-02T14:39:45.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "WhileStatement.hpp",
+              "DocumentMoniker": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Statement\\WhileStatement.hpp",
+              "RelativeDocumentMoniker": "Compiler\\Header\\Statement\\WhileStatement.hpp",
+              "ToolTip": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Statement\\WhileStatement.hpp",
+              "RelativeToolTip": "Compiler\\Header\\Statement\\WhileStatement.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-05T13:14:12.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IfStatement.hpp",
+              "DocumentMoniker": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Statement\\IfStatement.hpp",
+              "RelativeDocumentMoniker": "Compiler\\Header\\Statement\\IfStatement.hpp",
+              "ToolTip": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Statement\\IfStatement.hpp",
+              "RelativeToolTip": "Compiler\\Header\\Statement\\IfStatement.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-05T13:13:55.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "VarDefStatement.hpp",
+              "DocumentMoniker": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Statement\\VarDefStatement.hpp",
+              "RelativeDocumentMoniker": "Compiler\\Header\\Statement\\VarDefStatement.hpp",
+              "ToolTip": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Statement\\VarDefStatement.hpp",
+              "RelativeToolTip": "Compiler\\Header\\Statement\\VarDefStatement.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-05T13:13:37.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ReturnStatement.hpp",
+              "DocumentMoniker": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Statement\\ReturnStatement.hpp",
+              "RelativeDocumentMoniker": "Compiler\\Header\\Statement\\ReturnStatement.hpp",
+              "ToolTip": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Statement\\ReturnStatement.hpp",
+              "RelativeToolTip": "Compiler\\Header\\Statement\\ReturnStatement.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-05T13:14:29.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Statement.hpp",
+              "DocumentMoniker": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Statement\\Statement.hpp",
+              "RelativeDocumentMoniker": "Compiler\\Header\\Statement\\Statement.hpp",
+              "ToolTip": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Statement\\Statement.hpp",
+              "RelativeToolTip": "Compiler\\Header\\Statement\\Statement.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-02T15:02:39.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
               "Title": "Tokenizer.cpp",
               "DocumentMoniker": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Source\\Tokenizer.cpp",
               "RelativeDocumentMoniker": "Compiler\\Source\\Tokenizer.cpp",
@@ -161,12 +584,11 @@
               "RelativeToolTip": "Compiler\\Source\\Tokenizer.cpp",
               "ViewState": "AgIAAJ4AAAAAAAAAAAAcwKsAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-02T14:40:51.263Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-02T14:40:51.263Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 35,
               "Title": "Tokenizer.hpp",
               "DocumentMoniker": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Tokenizer.hpp",
               "RelativeDocumentMoniker": "Compiler\\Header\\Tokenizer.hpp",
@@ -174,25 +596,11 @@
               "RelativeToolTip": "Compiler\\Header\\Tokenizer.hpp",
               "ViewState": "AgIAACEAAAAAAAAAAAAAAGMAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-02T14:40:30.255Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-02T14:40:30.255Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Compiler.cpp",
-              "DocumentMoniker": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Source\\Compiler.cpp",
-              "RelativeDocumentMoniker": "Compiler\\Source\\Compiler.cpp",
-              "ToolTip": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Source\\Compiler.cpp",
-              "RelativeToolTip": "Compiler\\Source\\Compiler.cpp",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-02T14:39:45.824Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 34,
               "Title": "Compiler.hpp",
               "DocumentMoniker": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Header\\Compiler.hpp",
               "RelativeDocumentMoniker": "Compiler\\Header\\Compiler.hpp",
@@ -200,12 +608,11 @@
               "RelativeToolTip": "Compiler\\Header\\Compiler.hpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-02T14:39:42.866Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-02T14:39:42.866Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 36,
               "Title": "Main.cpp",
               "DocumentMoniker": "C:\\Users\\liamz\\Documents\\C\u002B\u002BProject\\CustomCompliler\\CustomComplier\\Compiler\\Source\\Main.cpp",
               "RelativeDocumentMoniker": "Compiler\\Source\\Main.cpp",
@@ -213,8 +620,7 @@
               "RelativeToolTip": "Compiler\\Source\\Main.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-02T14:39:01.809Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-02T14:39:01.809Z"
             }
           ]
         }
