@@ -12,8 +12,8 @@ int main()
 {
     Compiler compiler;
     Program program = compiler.Compile("Compiler/Resources/program.txt");
-
     compiler.PrintDebugInfo();
+    program.Print();
 
 }
 

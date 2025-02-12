@@ -23,7 +23,7 @@ void Assignation_Expression::Print(unsigned int depth)
 
 void Assignation_Expression::GenerateInstructions(Compiler* compiler, Compound_Statement* scope)
 {
-	/*if (typeid(*expression_L) != typeid(Literal_Expression) || ((Literal_Expression*)expression_L)->lit != Literal_Expression::LiteralType::L_IDEN)
+	if (typeid(*expression_L) != typeid(Literal_Expression) || ((Literal_Expression*)expression_L)->lit != Literal_Expression::LiteralType::L_IDEN)
 	{
 		std::cerr << "The expression should be an lvalue (referencing an object).";
 		return;
@@ -53,7 +53,7 @@ void Assignation_Expression::GenerateInstructions(Compiler* compiler, Compound_S
 		break;
 	}
 
-	compiler->AddInstruction(new Pop_Instruction(targetMemory));*/
+	compiler->AddInstruction(new Pop_Instruction(targetMemory));
 }
 
 //VirtualType* Assignation_Expression::EvaluateType(Compiler* compiler)

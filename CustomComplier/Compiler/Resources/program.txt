@@ -1,4 +1,9 @@
 int main()
 {
-	int myVar = 5;
+	if(1)
+	{
+		int myVar = 5;
+		int foo = 3 * 6 + 2;
+	}
+	
 }

@@ -29,11 +29,21 @@ void Binary_Expression::Print(unsigned int depth)
 
 void Binary_Expression::GenerateInstructions(Compiler* compiler, Compound_Statement* scope)
 {
-	/*AST_Node::GenerateInstructions(compiler, scope);
+	AST_Node::GenerateInstructions(compiler, scope);
 
 	switch (op->type)
 	{
-	case(TokenType::MINUS): compiler->AddInstruction(new Unary_Instruction(UnaryOperationType::NEGATION)); break;
-	case(TokenType::NOT): compiler->AddInstruction(new Unary_Instruction(UnaryOperationType::NOT_BOOL)); break;
-	}*/
+	case(TokenType::PLUS): compiler->AddInstruction(new Binary_Arithmetic_Instruction(BinaryOperationType::ADDITION)); break;
+	case(TokenType::MINUS): compiler->AddInstruction(new Binary_Arithmetic_Instruction(BinaryOperationType::SUBSTRACTION)); break;
+	case(TokenType::MULT): compiler->AddInstruction(new Binary_Arithmetic_Instruction(BinaryOperationType::MULTIPLICATION)); break;
+	case(TokenType::DIVIDE): compiler->AddInstruction(new Binary_Arithmetic_Instruction(BinaryOperationType::DIVISION)); break;
+	case(TokenType::IS_EQUAL): compiler->AddInstruction(new Binary_Arithmetic_Instruction(BinaryOperationType::EQUALITY)); break;
+	case(TokenType::IS_NOT_EQUAL): compiler->AddInstruction(new Binary_Arithmetic_Instruction(BinaryOperationType::INEQUALITY)); break;
+	case(TokenType::GREATER): compiler->AddInstruction(new Binary_Arithmetic_Instruction(BinaryOperationType::GREATER_THAN)); break;
+	case(TokenType::GREATER_EQUAL): compiler->AddInstruction(new Binary_Arithmetic_Instruction(BinaryOperationType::GREATER_OR_EQUAL_THAN)); break;
+	case(TokenType::LESSER): compiler->AddInstruction(new Binary_Arithmetic_Instruction(BinaryOperationType::LESSER_THAN)); break;
+	case(TokenType::LESSER_EQUAL): compiler->AddInstruction(new Binary_Arithmetic_Instruction(BinaryOperationType::LESSER_OR_EQUAL_THAN)); break;
+	case(TokenType::AND): compiler->AddInstruction(new Binary_Arithmetic_Instruction(BinaryOperationType::LOGICAL_AND)); break;
+	case(TokenType::OR): compiler->AddInstruction(new Binary_Arithmetic_Instruction(BinaryOperationType::LOGICAL_OR)); break;
+	}
 }

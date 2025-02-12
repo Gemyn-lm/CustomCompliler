@@ -57,11 +57,11 @@ void If_Statement::Print(unsigned int depth)
 
 void If_Statement::GenerateInstructions(Compiler* compiler, Compound_Statement* scope)
 {
-	/*Jump_Instruction* jump = new Jump_Instruction(true, 0);
+	Jump_Instruction* jump = new Jump_Instruction(true, 0);
 
 	expression->GenerateInstructions(compiler, scope);
 	compiler->AddInstruction(jump);
 	body->GenerateInstructions(compiler, scope);
 
-	jump->destination = compiler->GetInstructions().size();*/
+	jump->destination = compiler->GetInstructions().size();
 }

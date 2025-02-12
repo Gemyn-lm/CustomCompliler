@@ -55,7 +55,7 @@ void While_Statement::Print(unsigned int depth)
 
 void While_Statement::GenerateInstructions(Compiler* compiler, Compound_Statement* scope)
 {
-	/*int whileStart = compiler->GetInstructions().size();
+	int whileStart = compiler->GetInstructions().size();
 	Jump_Instruction* jumpToEnd = new Jump_Instruction(true, 0);
 
 	expression->GenerateInstructions(compiler, scope);
@@ -63,5 +63,5 @@ void While_Statement::GenerateInstructions(Compiler* compiler, Compound_Statemen
 	body->GenerateInstructions(compiler, scope);
 
 	jumpToEnd->destination = compiler->GetInstructions().size() + 1;
-	compiler->AddInstruction(new Jump_Instruction(false, whileStart));*/
+	compiler->AddInstruction(new Jump_Instruction(false, whileStart));
 }

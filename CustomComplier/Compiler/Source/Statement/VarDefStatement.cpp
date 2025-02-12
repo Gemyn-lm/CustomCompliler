@@ -49,9 +49,9 @@ void Var_Def_Statement::Print(unsigned int depth)
 
 void Var_Def_Statement::GenerateInstructions(Compiler* compiler, Compound_Statement* scope)
 {
-	/*AST_Node::GenerateInstructions(compiler, scope);
+	AST_Node::GenerateInstructions(compiler, scope);
 
-	int memoryPointer = compiler->AddVariableSymbol(varName->value, scope, compiler->TryGetTypeSymbol(typeSpecifier->value));
+	int memoryPointer = compiler->AddVariableSymbol(varName->value, scope/*, compiler->TryGetTypeSymbol(typeSpecifier->value)*/);
 
-	compiler->AddInstruction(new Pop_Instruction(memoryPointer));*/
+	compiler->AddInstruction(new Pop_Instruction(memoryPointer));
 }

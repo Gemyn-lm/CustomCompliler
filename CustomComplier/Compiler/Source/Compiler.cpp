@@ -28,7 +28,17 @@ Program Compiler::Compile(const std::string& filename)
     std::vector<Function_Def*> funcList = ParseToSyntaxTree(tokenList, this);
     funcList[0]->Print(0);
 
-	return Program();
+    Program program = Program();
+    for(Function_Def * funcDef : funcList)
+    {
+        funcDef->GenerateInstructions(this, nullptr);
+        VirtualFunction vFunc = VirtualFunction();
+        vFunc.instructionList = currentInstructionList;
+        currentInstructionList.clear();
+        program.AddVirtualFunction(vFunc);
+    }
+
+    return program;
 }
 
 void Compiler::PrintDebugInfo()
@@ -36,5 +46,22 @@ void Compiler::PrintDebugInfo()
     for (Token* token : tokenList)
     {
         std::cout << DebugTokenType[token->type] << " : " << token->value << "\n";
+    }
+}
+
+int Compiler::AddVariableSymbol(std::string& variableName, Compound_Statement* scope)
+{
+    variableSymbolMap.emplace(variableName, Symbol(variableSymbolMap.size() * 4, scope));
+    return variableSymbolMap.size() * 4 - 4;
+}
+
+void Compiler::RemoveSymbolInScope(Compound_Statement* scope)
+{
+    for (auto it = variableSymbolMap.begin(); it != variableSymbolMap.end(); ) 
+    {
+        if (it->second.scope == scope) 
+            it = variableSymbolMap.erase(it);
+        else
+            ++it;
     }
 }

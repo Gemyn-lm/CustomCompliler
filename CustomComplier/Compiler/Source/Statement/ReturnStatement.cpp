@@ -39,6 +39,6 @@ void Return_Statement::Print(unsigned int depth)
 
 void Return_Statement::GenerateInstructions(Compiler* compiler, Compound_Statement* scope)
 {
-	/*AST_Node::GenerateInstructions(compiler, scope);
-	compiler->AddInstruction(new Return_Instruction(0));*/
+	AST_Node::GenerateInstructions(compiler, scope);
+	compiler->AddInstruction(new Return_Instruction(0));
 }

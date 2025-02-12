@@ -1,3 +1,2 @@
-﻿  Parser.cpp
-C:\Users\liamz\Documents\C++Project\CustomCompliler\CustomComplier\Compiler\Source\Parser.cpp(91,31): warning C4129: «   » : séquence d’échappement de caractères non reconnue
+﻿  BinaryExpression.cpp
   CustomComplier.vcxproj -> C:\Users\liamz\Documents\C++Project\CustomCompliler\CustomComplier\x64\Debug\CustomComplier.exe

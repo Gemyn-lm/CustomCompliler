@@ -95,4 +95,5 @@ void Function_Def::Print(unsigned int depth)
 
 void Function_Def::GenerateInstructions(Compiler* compiler, Compound_Statement* scope)
 {
+	AST_Node::GenerateInstructions(compiler, scope);
 }

@@ -73,7 +73,7 @@ void Literal_Expression::Print(unsigned int depth)
 
 void Literal_Expression::GenerateInstructions(Compiler* compiler, Compound_Statement* scope)
 {
-	/*switch (lit)
+	switch (lit)
 	{
 	case(Literal_Expression::LiteralType::L_NUM):
 	{
@@ -87,7 +87,7 @@ void Literal_Expression::GenerateInstructions(Compiler* compiler, Compound_State
 		break;
 	}
 
-	}*/
+	}
 }
 //
 //VirtualType* Literal_Expression::EvaluateType(Compiler* compiler)

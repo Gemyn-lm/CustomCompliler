@@ -58,9 +58,9 @@ void Compound_Statement::Print(unsigned int depth)
 void Compound_Statement::GenerateInstructions(Compiler* compiler, Compound_Statement* scope)
 {
 
-	/*AST_Node::GenerateInstructions(compiler, this);
+	AST_Node::GenerateInstructions(compiler, this);
 
-	compiler->RemoveSymbolInScope(this);*/
+	compiler->RemoveSymbolInScope(this);
 
 }
 

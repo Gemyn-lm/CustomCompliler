@@ -25,11 +25,11 @@ void UnaryExpression::Print(unsigned int depth)
 
 void UnaryExpression::GenerateInstructions(Compiler* compiler, Compound_Statement* scope)
 {
-	/*AST_Node::GenerateInstructions(compiler, scope);
+	AST_Node::GenerateInstructions(compiler, scope);
 
 	switch (op->type)
 	{
 	case(TokenType::MINUS): compiler->AddInstruction(new Unary_Instruction(UnaryOperationType::NEGATION)); break;
 	case(TokenType::NOT): compiler->AddInstruction(new Unary_Instruction(UnaryOperationType::NOT_BOOL)); break;
-	}*/
+	}
 }
