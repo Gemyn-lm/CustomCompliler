@@ -1,6 +1,7 @@
 #include <fstream>
 #include <iostream>
 #include <sstream>
+#include <algorithm>
 #include "Compiler.hpp"
 #include "Parser.hpp"
 
@@ -52,7 +53,7 @@ void Compiler::PrintDebugInfo()
 int Compiler::AddVariableSymbol(std::string& variableName, Compound_Statement* scope)
 {
     variableSymbolMap.emplace(variableName, Symbol(variableSymbolMap.size() * 4, scope));
-    return variableSymbolMap.size() * 4 - 4;
+    return GetVarCountInScope(scope) * 4 - 4;
 }
 
 void Compiler::RemoveSymbolInScope(Compound_Statement* scope)
@@ -64,4 +65,11 @@ void Compiler::RemoveSymbolInScope(Compound_Statement* scope)
         else
             ++it;
     }
+}
+
+size_t Compiler::GetVarCountInScope(Compound_Statement* currentScope) const
+{
+    return std::count_if(variableSymbolMap.begin(), variableSymbolMap.end(), [currentScope](const auto& pair) {
+        return pair.second.scope == currentScope;
+        });
 }

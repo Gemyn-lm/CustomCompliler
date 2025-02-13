@@ -22,7 +22,7 @@ public:
 
 	~VirtualMemory()
 	{
-		delete[] memory;
+		//delete[] memory;
 	}
 
 	// Relative to stack head

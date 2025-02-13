@@ -9,6 +9,7 @@ C:\Users\liamz\Documents\C++Project\CustomCompliler\CustomComplier\Compiler\Sour
 C:\Users\liamz\Documents\C++Project\CustomCompliler\CustomComplier\Compiler\Source\Expression\ParenExpression.cpp;C:\Users\liamz\Documents\C++Project\CustomCompliler\CustomComplier\CustomComplier\x64\Debug\ParenExpression.obj
 C:\Users\liamz\Documents\C++Project\CustomCompliler\CustomComplier\Compiler\Source\Expression\UnaryExpression.cpp;C:\Users\liamz\Documents\C++Project\CustomCompliler\CustomComplier\CustomComplier\x64\Debug\UnaryExpression.obj
 C:\Users\liamz\Documents\C++Project\CustomCompliler\CustomComplier\Compiler\Source\Instruction.cpp;C:\Users\liamz\Documents\C++Project\CustomCompliler\CustomComplier\CustomComplier\x64\Debug\Instruction.obj
+C:\Users\liamz\Documents\C++Project\CustomCompliler\CustomComplier\Compiler\Source\Interpretor.cpp;C:\Users\liamz\Documents\C++Project\CustomCompliler\CustomComplier\CustomComplier\x64\Debug\Interpretor.obj
 C:\Users\liamz\Documents\C++Project\CustomCompliler\CustomComplier\Compiler\Source\Main.cpp;C:\Users\liamz\Documents\C++Project\CustomCompliler\CustomComplier\CustomComplier\x64\Debug\Main.obj
 C:\Users\liamz\Documents\C++Project\CustomCompliler\CustomComplier\Compiler\Source\Parser.cpp;C:\Users\liamz\Documents\C++Project\CustomCompliler\CustomComplier\CustomComplier\x64\Debug\Parser.obj
 C:\Users\liamz\Documents\C++Project\CustomCompliler\CustomComplier\Compiler\Source\Statement\CompoundStatement.cpp;C:\Users\liamz\Documents\C++Project\CustomCompliler\CustomComplier\CustomComplier\x64\Debug\CompoundStatement.obj

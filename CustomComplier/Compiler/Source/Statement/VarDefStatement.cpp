@@ -53,5 +53,5 @@ void Var_Def_Statement::GenerateInstructions(Compiler* compiler, Compound_Statem
 
 	int memoryPointer = compiler->AddVariableSymbol(varName->value, scope/*, compiler->TryGetTypeSymbol(typeSpecifier->value)*/);
 
-	compiler->AddInstruction(new Pop_Instruction(memoryPointer));
+	compiler->AddInstruction(new Pop_Instruction(memoryPointer + 4));
 }

@@ -57,9 +57,15 @@ void Compound_Statement::Print(unsigned int depth)
 
 void Compound_Statement::GenerateInstructions(Compiler* compiler, Compound_Statement* scope)
 {
+	Allocate_Instruction* alloc = new Allocate_Instruction(0);
+	compiler->AddInstruction(alloc);
 
 	AST_Node::GenerateInstructions(compiler, this);
 
+	// TODO : implement type size
+	int memorySizeInScope = compiler->GetVarCountInScope(this) * 4;
+	alloc->offset = memorySizeInScope;
+	compiler->AddInstruction(new Allocate_Instruction(-memorySizeInScope));
 	compiler->RemoveSymbolInScope(this);
 
 }

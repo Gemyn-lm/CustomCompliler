@@ -42,6 +42,8 @@ public:
 		return currentInstructionList;
 	}
 
+	size_t GetVarCountInScope(Compound_Statement* currentScope) const;
+
 private:
 
 	std::vector<Token*> tokenList;
@@ -50,5 +52,4 @@ private:
 
 	// instruction list for the current function
 	std::vector<Instruction*> currentInstructionList;
-
 };

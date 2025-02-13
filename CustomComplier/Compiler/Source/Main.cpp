@@ -5,6 +5,7 @@
 #include "Tokenizer.hpp"
 #include "Compiler.hpp"
 #include "Program.hpp"
+#include "Interpretor.hpp"
 
 using namespace std;
 
@@ -14,6 +15,9 @@ int main()
     Program program = compiler.Compile("Compiler/Resources/program.txt");
     compiler.PrintDebugInfo();
     program.Print();
+
+    Interpretor interpretor(program, 512);
+    interpretor.Run(0);
 
 }
 

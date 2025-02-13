@@ -1,2 +1,4 @@
-﻿  BinaryExpression.cpp
+﻿  Compiler.cpp
+C:\Users\liamz\Documents\C++Project\CustomCompliler\CustomComplier\Compiler\Source\Compiler.cpp(55,77): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\liamz\Documents\C++Project\CustomCompliler\CustomComplier\Compiler\Source\Compiler.cpp(56,42): warning C4267: 'return' : conversion de 'size_t' en 'int', perte possible de données
   CustomComplier.vcxproj -> C:\Users\liamz\Documents\C++Project\CustomCompliler\CustomComplier\x64\Debug\CustomComplier.exe

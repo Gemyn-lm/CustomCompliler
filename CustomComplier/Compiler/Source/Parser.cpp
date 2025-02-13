@@ -1,4 +1,5 @@
 #include "Parser.hpp"
+#include "Compiler.hpp"
 #include "iostream"
 
 std::vector<Function_Def*> ParseToSyntaxTree(std::vector<Token*> tokens, Compiler* compiler)
@@ -95,5 +96,7 @@ void Function_Def::Print(unsigned int depth)
 
 void Function_Def::GenerateInstructions(Compiler* compiler, Compound_Statement* scope)
 {
-	AST_Node::GenerateInstructions(compiler, scope);
+	// TODO
+	body->GenerateInstructions(compiler, scope);
+	compiler->AddInstruction(new Return_Instruction(0));
 }

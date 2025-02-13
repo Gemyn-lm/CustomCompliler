@@ -139,6 +139,7 @@
     <ClCompile Include="Compiler\Source\Expression\ParenExpression.cpp" />
     <ClCompile Include="Compiler\Source\Expression\UnaryExpression.cpp" />
     <ClCompile Include="Compiler\Source\Instruction.cpp" />
+    <ClCompile Include="Compiler\Source\Interpretor.cpp" />
     <ClCompile Include="Compiler\Source\Main.cpp" />
     <ClCompile Include="Compiler\Source\Parser.cpp" />
     <ClCompile Include="Compiler\Source\Statement\CompoundStatement.cpp" />
@@ -163,6 +164,7 @@
     <ClInclude Include="Compiler\Header\Expression\ParenExpression.hpp" />
     <ClInclude Include="Compiler\Header\Expression\UnaryExpression.hpp" />
     <ClInclude Include="Compiler\Header\Instruction.hpp" />
+    <ClInclude Include="Compiler\Header\Interpretor.hpp" />
     <ClInclude Include="Compiler\Header\Parser.hpp" />
     <ClInclude Include="Compiler\Header\Program.hpp" />
     <ClInclude Include="Compiler\Header\Statement\CompoundStatement.hpp" />

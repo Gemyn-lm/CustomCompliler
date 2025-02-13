@@ -1,9 +1,8 @@
 int main()
 {
-	if(1)
+	int x = 5;
 	{
-		int myVar = 5;
-		int foo = 3 * 6 + 2;
+		int y = 12;
 	}
-	
+	x = x * 2;
 }
