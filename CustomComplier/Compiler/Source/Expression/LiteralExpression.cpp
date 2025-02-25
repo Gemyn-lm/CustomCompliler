@@ -83,7 +83,7 @@ void Literal_Expression::GenerateInstructions(Compiler* compiler, Compound_State
 
 	case(Literal_Expression::LiteralType::L_IDEN):
 	{
-		compiler->AddInstruction(new Push_Instruction(false, compiler->TryGetSymbol(identifier->value)->memoryAdress));
+		compiler->AddInstruction(new Push_Instruction(false, compiler->TryGetVarSymbol(identifier->value)->memoryAdress));
 		break;
 	}
 

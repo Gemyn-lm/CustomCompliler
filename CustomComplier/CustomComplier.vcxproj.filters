@@ -155,6 +155,9 @@
     <ClInclude Include="Compiler\Header\Interpretor.hpp">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
+    <ClInclude Include="Compiler\Header\Symbol.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Compiler\Resources\program.txt" />

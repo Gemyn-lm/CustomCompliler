@@ -30,7 +30,7 @@ void Assignation_Expression::GenerateInstructions(Compiler* compiler, Compound_S
 	}
 
 
-	int targetMemory = compiler->TryGetSymbol(((Literal_Expression*)expression_L)->identifier->value)->memoryAdress;
+	int targetMemory = compiler->TryGetVarSymbol(((Literal_Expression*)expression_L)->identifier->value)->memoryAdress;
 
 	if (op->type != TokenType::EQUAL)
 		compiler->AddInstruction(new Push_Instruction(false, targetMemory));

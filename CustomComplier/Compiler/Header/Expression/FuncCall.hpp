@@ -16,7 +16,8 @@ struct FuncCall_Expression : Expression
 	// TODO : argument list
 
 	std::vector<AST_Node*> GetElementList() override;
-	AST_Node* Parse(const std::vector<Token*>& tokens, unsigned int* tokenIndex, Compiler* compiler) override { return nullptr; };
+	// TODO
+	AST_Node* Parse(const std::vector<Token*>& tokens, unsigned int* tokenIndex, Compiler* compiler) override;
 	virtual void Print(unsigned int depth);
 	void GenerateInstructions(Compiler* compiler, Compound_Statement* scope) override;
 

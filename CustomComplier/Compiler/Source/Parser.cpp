@@ -10,7 +10,9 @@ std::vector<Function_Def*> ParseToSyntaxTree(std::vector<Token*> tokens, Compile
 	while (tokenIndex < tokens.size())
 	{
 		Function_Def* func = new Function_Def();
-		func->Parse(tokens, &tokenIndex, compiler);
+		if (func->Parse(tokens, &tokenIndex, compiler) == nullptr)
+			break;
+		
 		result.push_back(func);
 	}
 

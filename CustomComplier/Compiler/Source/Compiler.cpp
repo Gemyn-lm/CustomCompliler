@@ -27,7 +27,14 @@ Program Compiler::Compile(const std::string& filename)
 
     tokenList = Tokenize(programTxt);
     std::vector<Function_Def*> funcList = ParseToSyntaxTree(tokenList, this);
-    funcList[0]->Print(0);
+    
+
+    for (int i = 0; i < funcList.size(); i++)
+    {
+        funcList[i]->Print(0);
+        functionSymbolMap.emplace(funcList[i]->funcName->value, FunctionSymbol(i));
+        //TODO : function signature
+    }
 
     Program program = Program();
     for(Function_Def * funcDef : funcList)
@@ -52,8 +59,8 @@ void Compiler::PrintDebugInfo()
 
 int Compiler::AddVariableSymbol(std::string& variableName, Compound_Statement* scope)
 {
-    variableSymbolMap.emplace(variableName, Symbol(variableSymbolMap.size() * 4, scope));
-    return GetVarCountInScope(scope) * 4 - 4;
+    variableSymbolMap.emplace(variableName, VariableSymbol(variableSymbolMap.size() * 4 + 4, scope));
+    return GetVarCountInScope(scope) * 4;
 }
 
 void Compiler::RemoveSymbolInScope(Compound_Statement* scope)

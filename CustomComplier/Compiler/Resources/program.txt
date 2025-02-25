@@ -1,8 +1,13 @@
 int main()
 {
 	int x = 5;
-	{
-		int y = 12;
-	}
-	x = x * 2;
+	int y = Foo();
+	
 }
+
+int Foo()
+{
+	int myVar = 22;
+	return 1;
+}
+

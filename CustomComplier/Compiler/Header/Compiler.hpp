@@ -4,17 +4,10 @@
 #include <map>
 #include "Program.hpp"
 #include "Tokenizer.hpp"
+#include "Symbol.hpp"
 
 
-struct Symbol
-{
-	int memoryAdress;
-	// TODO : virtual type
-	Compound_Statement* scope;
 
-	Symbol(int _memoryAdress, Compound_Statement* _scope)
-		: memoryAdress(_memoryAdress), scope(_scope) { }
-};
 
 class Compiler
 {
@@ -24,10 +17,16 @@ public:
 
 	void PrintDebugInfo();
 
-	Symbol* TryGetSymbol(const std::string& symbolName)
+	VariableSymbol* TryGetVarSymbol(const std::string& symbolName)
 	{
 		auto it = variableSymbolMap.find(symbolName);
 		return (it != variableSymbolMap.end()) ? &(it->second) : nullptr;
+	}
+
+	FunctionSymbol* TryGetFuncSymbol(const std::string& symbolName)
+	{
+		auto it = functionSymbolMap.find(symbolName);
+		return (it != functionSymbolMap.end()) ? &(it->second) : nullptr;
 	}
 
 	void AddInstruction(Instruction* instruction)
@@ -48,7 +47,8 @@ private:
 
 	std::vector<Token*> tokenList;
 
-	std::map<std::string, Symbol> variableSymbolMap;
+	std::map<std::string, VariableSymbol> variableSymbolMap;
+	std::map<std::string, FunctionSymbol> functionSymbolMap;
 
 	// instruction list for the current function
 	std::vector<Instruction*> currentInstructionList;

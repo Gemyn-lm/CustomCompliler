@@ -40,5 +40,7 @@ void Return_Statement::Print(unsigned int depth)
 void Return_Statement::GenerateInstructions(Compiler* compiler, Compound_Statement* scope)
 {
 	AST_Node::GenerateInstructions(compiler, scope);
-	compiler->AddInstruction(new Return_Instruction(0));
+	int memorySizeInScope = compiler->GetVarCountInScope(scope) * 4;
+	/*compiler->AddInstruction(new Allocate_Instruction(-memorySizeInScope));*/
+	compiler->AddInstruction(new Return_Instruction(0 + memorySizeInScope));
 }

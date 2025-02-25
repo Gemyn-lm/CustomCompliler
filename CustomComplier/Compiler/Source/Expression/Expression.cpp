@@ -136,7 +136,7 @@ Expression* GetNextFactor(const std::vector<Token*>& tokens, unsigned int* token
 	}
 
 
-	// Suffix epxression (unction call, indexing, suffix increment / decrement, ...)
+	// Suffix epxression (function call, indexing, suffix increment / decrement, ...)
 	while (true)
 	{
 		if (CheckTokenType(tokens, *tokenIndex, TokenType::PAREN_L))
