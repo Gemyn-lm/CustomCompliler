@@ -1,11 +1,12 @@
 int main()
 {
 	int x = 5;
-	int y = Foo();
+	Foo();
+	int y = 43;
 	
 }
 
-int Foo()
+int Foo(int arg1, int arg2)
 {
 	int myVar = 22;
 	return 1;

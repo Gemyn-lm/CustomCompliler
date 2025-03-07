@@ -1,5 +1,6 @@
 #include "Statement/ExpressionStatement.hpp"
 #include "Parser.hpp"
+#include "Expression/FuncCall.hpp"
 #include <iostream>
 
 
@@ -19,6 +20,15 @@ AST_Node* Expression_Statement::Parse(const std::vector<Token*>& tokens, unsigne
 		return nullptr;
 
 	return this;
+}
+
+void Expression_Statement::GenerateInstructions(Compiler* compiler, Compound_Statement* scope)
+{
+	AST_Node::GenerateInstructions(compiler, scope);
+	if (typeid(*expression) == typeid(FuncCall_Expression))
+	{
+		compiler->AddInstruction(new Pop_Instruction(0));
+	}
 }
 
 void Expression_Statement::Print(unsigned int depth)

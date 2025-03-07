@@ -62,6 +62,25 @@ AST_Node* Function_Def::Parse(const std::vector<Token*>& tokens, unsigned int* t
 	else
 		return nullptr;
 
+	// Parameter passing
+	while ((CheckTokenType(tokens, *tokenIndex, TokenType::IDENTIFIER)))
+	{
+		ParameterDef param = ParameterDef();
+		param.type = GetNextToken(tokens, tokenIndex);
+
+		if (CheckTokenType(tokens, *tokenIndex, TokenType::IDENTIFIER))
+			param.name = GetNextToken(tokens, tokenIndex);
+		else
+			return nullptr;
+
+		parameters.push_back(param);
+
+		if (CheckTokenType(tokens, *tokenIndex, TokenType::COMMA))
+			GetNextToken(tokens, tokenIndex);
+		else
+			break;
+	}
+
 	if (CheckTokenType(tokens, *tokenIndex, TokenType::PAREN_R))
 		GetNextToken(tokens, tokenIndex);
 	else
@@ -88,6 +107,16 @@ void Function_Def::Print(unsigned int depth)
 		<< '\n' << tabs << "\t\"Function Name : "
 		<< funcName->value << '\"';
 		
+	int i = 0;
+	for (ParameterDef param : parameters)
+	{
+		std::cout << "\n" << tabs << "\t\"Param " << i << ":"
+			<< "\n" << tabs << "\t{"
+			<< "\n" << tabs << "\t\t\"Type : " << param.type->value
+			<< "\n" << tabs << "\t\t\"Value : " << param.name->value
+			<< "\n" << tabs << "\t}";
+		i++;
+	}
 	
 	std::cout << ",";
 
