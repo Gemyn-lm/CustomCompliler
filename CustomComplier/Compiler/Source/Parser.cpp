@@ -128,6 +128,10 @@ void Function_Def::Print(unsigned int depth)
 void Function_Def::GenerateInstructions(Compiler* compiler, Compound_Statement* scope)
 {
 	// TODO
+	for (ParameterDef param : parameters)
+	{
+		compiler->AddVariableSymbol(param.name->value, body);
+	}
 	body->GenerateInstructions(compiler, scope);
 	compiler->AddInstruction(new Return_Instruction(0));
 }

@@ -11,7 +11,7 @@ using namespace std;
 
 int main()
 {
-    Compiler compiler;
+     Compiler compiler;
     Program program = compiler.Compile("Compiler/Resources/program.txt");
     compiler.PrintDebugInfo();
     program.Print();

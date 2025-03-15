@@ -1,14 +1,10 @@
 int main()
 {
-	int x = 5;
-	Foo();
-	int y = 43;
-	
+	int x = Foo(3, 5);	
 }
 
 int Foo(int arg1, int arg2)
 {
-	int myVar = 22;
-	return 1;
+	return arg1 * arg2;
 }
 

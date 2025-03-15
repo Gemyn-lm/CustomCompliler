@@ -51,7 +51,7 @@ void Var_Def_Statement::GenerateInstructions(Compiler* compiler, Compound_Statem
 {
 	AST_Node::GenerateInstructions(compiler, scope);
 
-	int memoryPointer = compiler->AddVariableSymbol(varName->value, scope/*, compiler->TryGetTypeSymbol(typeSpecifier->value)*/);
+	int memoryPointer = compiler->AddVariableSymbol(varName->value, scope);
 
 	compiler->AddInstruction(new Pop_Instruction(memoryPointer));
 }

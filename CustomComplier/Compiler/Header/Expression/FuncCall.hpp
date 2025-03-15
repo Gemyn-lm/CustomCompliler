@@ -14,6 +14,7 @@ struct FuncCall_Expression : Expression
 	Expression* funcPtr;
 	Token* parenL, * parenR;
 	// TODO : argument list
+	std::vector<Expression*> argumentList;
 
 	std::vector<AST_Node*> GetElementList() override;
 	// TODO
