@@ -9,9 +9,18 @@
 
 using namespace std;
 
+void Print(uint8_t* memory)
+{
+    int arg;
+    memcpy(&arg, memory, 4);
+    //memcpy(&arg, &memory, 4);
+    std::cout << arg << std::endl;
+}
+
 int main()
 {
-     Compiler compiler;
+    Compiler compiler;
+    compiler.AddExternalFunctionSymbol("Print", Print);
     Program program = compiler.Compile("Compiler/Resources/program.txt");
     compiler.PrintDebugInfo();
     program.Print();

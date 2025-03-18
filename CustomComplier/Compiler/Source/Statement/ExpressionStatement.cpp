@@ -36,7 +36,7 @@ void Expression_Statement::Print(unsigned int depth)
 	std::string tabs = std::string(depth, '\t');
 
 	std::cout << "\"Expression Statement\":" << "\n" << tabs << "{"
-		<< '\n' << tabs << "\t";
+		<< '\n' << tabs << '\t';
 	expression->Print(depth + 1);
 	std::cout << "\n" << tabs << "}";
 }

@@ -2,16 +2,22 @@
 
 
 
-void Interpretor::Run(int functionIndex)
+void Interpretor::Run(int functionIndex, bool printInfo)
 {
 	virtualMemory.currentFunctionIndex = functionIndex;
 	while (virtualMemory.currentInstructionIndex < program.GetVirtualFunction(virtualMemory.currentFunctionIndex).instructionList.size())
 	{
-		std::cout << "\n\n";
-		program.GetVirtualFunction(virtualMemory.currentFunctionIndex).instructionList[virtualMemory.currentInstructionIndex]->Print();
+		if (printInfo)
+		{
+			std::cout << "\n\n";
+			program.GetVirtualFunction(virtualMemory.currentFunctionIndex).instructionList[virtualMemory.currentInstructionIndex]->Print();
+		}
+		
 		program.GetVirtualFunction(virtualMemory.currentFunctionIndex).instructionList[virtualMemory.currentInstructionIndex]->Execute(&virtualMemory);
 		virtualMemory.currentInstructionIndex++;
-		PrintStack(7);
+
+		if(printInfo)
+			PrintStack(7);
 	}
 }
 

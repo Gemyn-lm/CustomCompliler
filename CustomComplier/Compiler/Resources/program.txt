@@ -1,6 +1,6 @@
 int main()
-{
-	int x = Foo(3, 5);	
+{	
+	Print(Foo(3, 4));
 }
 
 int Foo(int arg1, int arg2)

@@ -1,5 +1,6 @@
 #pragma once
 #include <vector>
+#include <functional>
 
 
 class VirtualMemory
@@ -8,14 +9,15 @@ class VirtualMemory
 	size_t memorySize;
 	int stackHead = 0;
 	int tempValuesOffset = 0; // Relative to the stack head
+	std::vector<std::function<void(uint8_t* memory)>>* externalFunctionList = nullptr;
 
 public:
 
 	int currentInstructionIndex = 0;
 	int currentFunctionIndex = 0;
 
-	VirtualMemory(size_t size)
-		: memorySize(size)
+	VirtualMemory(size_t size, std::vector<std::function<void(uint8_t* memory)>>* externalFunctionListPre)
+		: memorySize(size), externalFunctionList(externalFunctionListPre)
 	{
 		memory = new uint8_t[size];
 	}
@@ -46,4 +48,11 @@ public:
 	size_t GetMemorySize() const { return memorySize; }
 
 	unsigned char* GetMemory() const { return memory; }
+
+	std::function<void(uint8_t* memory)> GetExternalFunction(int index)
+	{
+		return (*externalFunctionList)[index];
+	}
+
+
 };

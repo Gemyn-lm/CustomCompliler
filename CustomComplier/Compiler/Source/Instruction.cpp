@@ -86,3 +86,8 @@ void Return_Instruction::Execute(VirtualMemory* vMemory)
 	vMemory->currentInstructionIndex = vMemory->PopStack();
 	vMemory->PushTempValue(returnValue);
 }
+
+void External_Call_Instruction::Execute(VirtualMemory* vMemory)
+{
+	vMemory->GetExternalFunction(functionIndex)(vMemory->GetMemory() + vMemory->GetStackHead() + 8);
+}

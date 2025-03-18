@@ -194,6 +194,23 @@ struct Call_Instruction : Instruction
 	void Execute(VirtualMemory* vMemory) override;
 };
 
+struct External_Call_Instruction : Instruction
+{
+	int functionIndex;
+
+	External_Call_Instruction(int _functionIndex)
+		: functionIndex(_functionIndex)
+	{
+	}
+
+	void Print() override
+	{
+		std::cout << "EXCALL " << functionIndex << "\n";
+	}
+
+	void Execute(VirtualMemory* vMemory) override;
+};
+
 enum UnaryOperationType
 {
 	NEGATION,

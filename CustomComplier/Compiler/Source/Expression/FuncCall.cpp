@@ -47,9 +47,9 @@ void FuncCall_Expression::Print(unsigned int depth)
 	for (Expression* param : argumentList)
 	{
 		std::cout << "\n" << tabs << "\t\"Param " << i << ":"
-			<< "\n" << tabs << "\t{\n" << tabs;
+			<< "\n" << tabs << "\t{\n" << tabs << "\t\t";
 			
-		param->Print(depth + 3);
+		param->Print(depth + 2);
 			std::cout << "\n" << tabs << "\t}";
 		i++;
 	}
@@ -66,14 +66,22 @@ void FuncCall_Expression::GenerateInstructions(Compiler* compiler, Compound_Stat
 	}
 
 	int i = 4 + argumentList.size() * 4;
-	for (Expression* param : argumentList)
+	for (Expression* param : argumentList)  
 	{
 		param->GenerateInstructions(compiler, scope);
 		compiler->AddInstruction(new Pop_Instruction(-i));
 		i -= 4;
 	}
 
-	int funcIndex = compiler->TryGetFuncSymbol(((Literal_Expression*)funcPtr)->identifier->value)->functionIndex;
-	compiler->AddInstruction(new Call_Instruction(funcIndex));
+	if (FunctionSymbol* funcSymbol = compiler->TryGetFuncSymbol(((Literal_Expression*)funcPtr)->identifier->value))
+	{
+		int funcIndex = funcSymbol->functionIndex;
+		compiler->AddInstruction(new Call_Instruction(funcIndex));
+	}
+	else
+	{
+		int funcIndex = compiler->TryGetExternalFuncSymbol(((Literal_Expression*)funcPtr)->identifier->value)->functionIndex;
+		compiler->AddInstruction(new External_Call_Instruction(funcIndex));
+	}
 }
 

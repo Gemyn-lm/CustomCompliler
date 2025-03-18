@@ -36,17 +36,17 @@ Program Compiler::Compile(const std::string& filename)
         //TODO : function signature
     }
 
-    Program program = Program();
+    
     for(Function_Def * funcDef : funcList)
     {
         funcDef->GenerateInstructions(this, nullptr);
         VirtualFunction vFunc = VirtualFunction();
         vFunc.instructionList = currentInstructionList;
         currentInstructionList.clear();
-        program.AddVirtualFunction(vFunc);
+        resultProgram.AddVirtualFunction(vFunc);
     }
 
-    return program;
+    return resultProgram;
 }
 
 void Compiler::PrintDebugInfo()
@@ -61,6 +61,13 @@ int Compiler::AddVariableSymbol(std::string& variableName, Compound_Statement* s
 {
     variableSymbolMap.emplace(variableName, VariableSymbol(variableSymbolMap.size() * 4 + 4, scope));
     return GetVarCountInScope(scope) * 4;
+}
+
+int Compiler::AddExternalFunctionSymbol(const char* functionName, std::function<void(uint8_t* memory)> funcPtr)
+{
+    externalFunctionSymbolMap.emplace(functionName, ExternalFunctionSymbol(funcPtr, externalFunctionSymbolMap.size()));
+    resultProgram.AddExternalFunction(funcPtr);
+    return externalFunctionSymbolMap.size() - 1;
 }
 
 void Compiler::RemoveSymbolInScope(Compound_Statement* scope)
